@@ -20,7 +20,7 @@ before you ever see it.
 Paste this into Claude:
 
 ```
-https://github.com/Jakeschincariol/linkedin-agent-skill
+https://github.com/simonjdraper-cell/linkedin-agent-skill
 
 Install this skill, then confirm /li-post works.
 ```
@@ -28,14 +28,14 @@ Install this skill, then confirm /li-post works.
 Or do it yourself, in Claude Code:
 
 ```bash
-git clone https://github.com/Jakeschincariol/linkedin-agent-skill.git
+git clone https://github.com/simonjdraper-cell/linkedin-agent-skill.git
 cp -r linkedin-agent-skill/skills/li-* ~/.claude/skills/
 ```
 
 Or as a plugin:
 
 ```
-/plugin marketplace add Jakeschincariol/linkedin-agent-skill
+/plugin marketplace add simonjdraper-cell/linkedin-agent-skill
 /plugin install linkedin-agent
 ```
 
